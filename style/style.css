@@ -1,0 +1,89 @@
+body {
+	background: url(https://media-exp1.licdn.com/dms/image/C4E1BAQGkG6xL_zUrKQ/company-background_10000/0/1519801797634?e=2159024400&v=beta&t=CV_RVAyvB_uQBLfgeSvEPZxV7erU5CKOZJ93DlU6Vyw); 
+	background-size: cover;
+	margin: 0;
+	height: 100vh;
+  }
+
+ /* Navegación */
+ ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  ul#nav>li {
+    float: left;
+  }
+  
+  ul#nav>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* Título */
+
+ h1, h2{
+    text-align: center;
+    display: table;
+    margin: 35px auto 35px auto ;
+    padding-left: 10px;
+    padding-right: 10px;    
+  	color: white;
+	  text-align: center;
+	  background-color:  rgba(0, 0, 0, 0.5);
+    background-size: contain;
+    
+    
+}
+
+h1{
+  text-shadow: 1px 1px 3px ;
+}
+
+ /*Texto inicial*/
+p{
+    margin: 10px;
+    color: white;
+}
+
+.fondo{
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 1px;
+    margin: 10px;
+}
+
+/* Galería */
+
+#container{
+
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0, 0.5);
+
+}
+
+.compacto{
+  width: 300px;
+  height: 400px;
+}
+
+/* Comentarios */
+
+
+    
